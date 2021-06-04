@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=PT+Serif:ital@1&display=swap');
+
+.title {
+    color: rgb(255, 44, 160);
+    font-size: 5rem;
+  }
+
+.item {
+  border: 1px solid #aaa;
+  padding: 1rem;
+}
+ß
+.selected {
+  background-color: #aaa;
+}
+#main-menu div:hover{
+ color:solid red;
+  cursor: pointer;
+}
+#main-menu{
+  border:solid red;
+  cursor: pointer;
+}
+
+.container{
+  color: black;
+  border:solid red 1px;
+  height: 100px;height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:rgb(15, 202, 202);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container button:hover{
+  color:aqua;
+  cursor: pointer;
+}
